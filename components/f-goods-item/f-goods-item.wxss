@@ -1,0 +1,11 @@
+/* components/f-goods-item.wxss */
+
+.img image{
+  width: 320rpx;
+  height: 320rpx;
+}
+.title {
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

@@ -1,0 +1,24 @@
+/* components/f-tab-control/f-tab-control.wxss */
+.tab-control{
+  display: flex;
+  align-content: center;
+  text-align: center;
+  background-color: white;
+}
+
+.tab-control-item{
+  flex: 1;
+  height: 40rpx;
+  line-height: 40rpx;
+   margin: 50rpx auto;
+}
+
+.tab-control-item text{
+  padding: 20rpx 30rpx;
+ 
+}
+
+.active{
+  color: #ff5755;
+  border-bottom: 4rpx solid #ff5755;
+}

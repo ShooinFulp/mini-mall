@@ -1,0 +1,12 @@
+/* components/f-back-top/f-back-top.wxss */
+
+.back-top image{
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.back-top{
+  position: fixed;
+  right: 50rpx;
+  bottom: 50rpx;
+}

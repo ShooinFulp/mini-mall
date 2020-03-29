@@ -1,0 +1,18 @@
+<!--pages/home/home.wxml-->
+<f-back-top  wx:if="{{isShowBackTop}}" />
+
+<!--轮播图-->
+<f-swiper list="{{banners}}" />
+
+<!-- 推荐 -->
+<f-recommend recommends="{{recommends}}" bind:imgLoad="imgLoad" />
+
+<!--流行-->
+<f-popular url="/assets/home/popular_bg.jpg" />
+
+<f-tab-control class='{{isFiexd ? "fiexd":""}}' titles="{{titles}}" bind:tabControlItemClick='tabControlItemClick'  id="tabcontrol"/>
+<f-tab-control wx:if="{{isFiexd}}" titles="{{titles}}" />
+
+
+
+<f-goods goodsList="{{goods}}"/>

@@ -1,0 +1,4 @@
+/* pages/home/childCpns/f-swiper.wxss */
+.swiper image{
+    width: 100%;
+}

@@ -1,0 +1,4 @@
+<!--pages/home/childCpns/f-popular/popular.wxml-->
+<view class="popular">
+  <image src="{{url}}" mode="widthFix"  ></image>
+</view> 

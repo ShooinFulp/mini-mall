@@ -1,0 +1,13 @@
+/* pages/home/childCpns/f-recommend/f-recommend.wxss */
+.recommend{
+  display: flex;
+  justify-content:  space-evenly;
+  padding: 30rpx 0;
+  border-bottom: 20rpx solid  gainsboro;
+}
+
+.recommend image{
+  width: 150rpx;
+  height: 150rpx;
+  flex: 1;
+}

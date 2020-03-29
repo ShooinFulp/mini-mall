@@ -1,0 +1,8 @@
+<!--pages/home/childCpns/f-swiper.wxml-->
+<swiper class="swiper" autoplay indicator-dots indicator-active-color="#ff5755" circular duration="1000" interval="2000">
+  <block wx:for="{{list}}" wx:key="index">
+    <swiper-item>
+      <image src="{{item.image}}" mode="widthFix"></image>
+    </swiper-item>
+  </block>
+</swiper>

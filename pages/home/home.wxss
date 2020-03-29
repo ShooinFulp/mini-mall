@@ -1,0 +1,7 @@
+/* pages/home/home.wxss */
+.fiexd{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
